@@ -1,0 +1,72 @@
+**/.env
+.DS_Store
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore config files
+config.json
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore tar files
+*.tar
+
+# Ignore Qodo directory
+.qodo/
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# UV package manager
+uv.lock
+
+# Ignore postgres RAG implementation
+RAG/DIYRAG-postgres/
+
+# Ignore data folders and FAISS indices
+**/data/*
+!**/data/annual_reports/
+**/data/annual_reports/*
+!**/data/annual_reports/.gitkeep
+**/*.faiss
+**/*.index
+**/faiss_index/
+**/data.zip
+
+# Ignore metadata store
+**/metadata_store.json
+
+# Ignore data folders
+RAG/DIYRAG-FAISS/data/
+RAG/DIYRAG-FAISS/annual_reports/
+RAG/openai-managed-rag/data/
+RAG/openai-managed-rag/annual_reports/
+RAG/DIYRAG-langchain/data/
+RAG/DIYRAG-langchain/annual_reports/
+
+# Ignore FAISS indices
+RAG/DIYRAG-FAISS/faiss_index/
+RAG/openai-managed-rag/faiss_index/
+RAG/DIYRAG-langchain/faiss_index/
+
+# Ignore metadata store
+RAG/DIYRAG-FAISS/metadata_store.json
+RAG/openai-managed-rag/metadata_store.json
+RAG/DIYRAG-langchain/metadata_store.json
+
+# Ignore macOS system files
+**/.DS_Store

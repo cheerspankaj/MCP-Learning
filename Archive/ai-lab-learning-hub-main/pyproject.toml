@@ -1,0 +1,24 @@
+[project]
+name = "ai-lab-learning-hub"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.35.76",
+    "datasets>=3.2.0",
+    "dspy>=2.5.43",
+    "ipykernel>=6.29.5",
+    "jupyter>=1.1.1",
+    "langchain>=0.3.17",
+    "langchain-community>=0.3.16",
+    "langchain-openai>=0.3.3",
+    "nltk>=3.9.1",
+    "openai>=1.66.3",
+    "pandas>=2.2.3",
+    "pydantic>=2.10.3",
+    "rouge-score>=0.1.2",
+    "streamlit>=1.41.1",
+    "transformers>=4.47.1",
+]
+
